@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>W.L.A.D.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">W.L.A.D.</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <a name="home"></a>
+                    <li><a href="#home">HOME</a>
+                    </li>
+                    <a name="theartist"></a>
+                    <li><a href="#theartist">THE ARTIST</a>
+                    </li>
+                    <a name="workpreview"></a>
+                    <li><a href="#workpreview">WORK</a>
+                    </li>
+                    <a name="contact"></a>
+                    <li><a href="#contact">CONTACT</a>
+                    </li>
+                    
+                 <!--    <li><a href="index.html"><span class="glyphicon glyphicon-search"></span></a>
+                    </li>   -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="home">
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="title-container">
+                <div class="headline">
+                    <h1>WLADISLAWA <br>WERTH</h1>
+                </div>
+                <div class="description">
+                    <div class="inner">art book publishing - graphic & web design - translations</div>
+                </div>
+            </div>
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth">
+                <source src="assets/Farbverlauf.mp4" type="video/mp4" />
+                Your browser does not support the video tag. Please upgrade your browser.
+            </video>
+        </div>
+    </div>
+</div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/carousel_1.png" alt="New York" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/carousel_2.png" alt="Chicago" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/carousel_3.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>LA</h3>
+                    <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Container (The Band Section) -->
+    <div id="theartist" class="container text-center">
+        <h3>THE ARTIST</h3>
+        <p><em>Hyper culturist!</em>
+        </p>
+        <p>I have founded EX-IT PUBLISHING (visit <a href="http://ex-it.press" data-toggle="tooltip" title="Visit ex-it.press">http://ex-it.press</a>), which focuses on art in the anthropocene.<br> Multidimensionality is what interests me.<br> 
+            Having lived in Asia, Europe and New York, US, I have realized in different languages that boundaries of any kind do not exist.</p>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="text-center"><strong>art book publishing</strong>
+                </p>
+                <br>
+                <a href="#demo" data-toggle="collapse">
+                    <img src="img/glitch1_sq.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                </a>
+                <div id="demo" class="collapse">
+                    <p>CULTURAL & ART STUDIES</p>
+                    <p>founder & director of EX-IT PUBLISHING (visit <a href="http://ex-it.press" data-toggle="tooltip" title="Visit http://ex-it.press">http://ex-it.press</a>)</p>
+                    <p>art & anthropocene, conceptual literature and art</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>graphic & web design</strong>
+                </p>
+                <br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="img/glitch2_sq.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>DESIGN & MULTIDIMENSIONAL STUDIES</p>
+                    <p>computer programs and technology</p>
+                    <p>graphic & web design, technical devices, photography, generative & multidimensional art</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>translations</strong>
+                </p>
+                <br>
+                <a href="#demo3" data-toggle="collapse">
+                    <img src="img/glitch3_sq.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                </a>
+                <div id="demo3" class="collapse">
+                    <p>LINGUISTIC STUDIES</p>
+                    <p>English</p>
+                    <p>German</p>
+                    <p>Russian</p>
+                    <p>French</p>
+                    <p>Spanish: To Be Announced</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (TOUR Section) -->
+    <div id="workpreview" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">WORK</h3>
+            <p class="text-center">See the recent work!
+                <br> Reserve yours!</p>
+            
+            
+            <!-- 
+            <ul class="list-group">
+                <li class="list-group-item">NY GROCERY BAG (1st PRINT) - Organic Cotton Bag
+                </li>
+                <li class="list-group-item">NY (1st PRINT) - Organic Cotton Bag
+                </li>
+                <li class="list-group-item">NY LOCAL FOOD(1st PRINT) - Organic Cotton Bag
+                </li>
+                <li class="list-group-item">YOUNGSTERS (1st PRINT) - Organic Cotton Bag
+                </li>
+                <li class="list-group-item">PHONE BREAST BAG (1st EDITION) - 100% Postconsumer Recycled<span class="badge">see designs</span> 
+                </li>
+                <li class="list-group-item">ANIMALS (1st PRINT) - Sustainable Little Sack<span class="badge">see designs</span>
+                </li>
+                <li class="list-group-item">EX-IT Issue No1 2016 (1st PRINT)<span class="label label-danger">Sold Out!</span>
+                    <span class="badge">see its organic cotton bag</span>
+                </li>
+                <li class="list-group-item">CONCEPTUAL PRINTS - Postcards (1st Print)<span class="badge">see designs</span>
+                </li>
+            </ul>
+-->
+
+
+
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200253.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>NY GROCERY BAG</strong>
+                        </p>
+                        <p>Organic Cotton Bag</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200261.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>NY LOCAL FOOD</strong>
+                        </p>
+                        <p>Organic Cotton Bag</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200262.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>NY</strong>
+                        </p>
+                        <p>Organic Cotton Bag</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200257.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>YOUNGSTERS</strong>
+                        </p>
+                        <p>Organic Cotton Bag</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200269.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>PHONE BREAST BAG</strong>
+                        </p>
+                        <p>100% Postconsumer Recycled Felt & Leather</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200267.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>LITTLE SACK ANIMALS</strong>
+                        </p>
+                        <p>Organic Cotton Sack</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200282.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>CARD YOUNGSTER FEMALE</strong>
+                        </p>
+                        <p>100% Postconsumer Recycled</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200281.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>ENVELOPE</strong>
+                        </p>
+                        <p>100% Postconsumer Recycled</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200286.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>CARD ANIMALS</strong>
+                        </p>
+                        <p>100% Postconsumer Recycled</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200284.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>CARD YOUNGSTER MALE</strong>
+                        </p>
+                        <p>100% Postconsumer Recycled</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/dEr.jpg" alt="San Francisco" width="400" height="300">
+                        <p><strong>CONCEPTUAL PRINTS - d'Er</strong>
+                        </p>
+                        <p>Postcards Sustainable</p>
+                      <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Buy</button>   -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/thit.jpg" alt="San Francisco" width="400" height="300">
+                        <p><strong>CONCEPTUAL PRINTS - Th'it</strong>
+                        </p>
+                        <p>Postcards Sustainable</p>
+                      <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Buy</button>   -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/thist.jpg" alt="San Francisco" width="400" height="300">
+                        <p><strong>CONCEPTUAL PRINTS - Thist</strong>
+                        </p>
+                        <p>Postcards Sustainable</p>
+                      <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Buy</button>   -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/light.jpg" alt="San Francisco" width="400" height="300">
+                        <p><strong>CONCEPTUAL PRINTS - Light</strong>
+                        </p>
+                        <p>Postcards Sustainable</p>
+                      <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Buy</button>   -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200272.JPG" alt="New York" width="400" height="300">
+                        <p><strong>EX-IT ZINE</strong>
+                        </p>
+                        <p>Issue No1 2016</p>
+                     <!--   <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button>  -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/P1200264.JPG" alt="Paris" width="400" height="300">
+                        <p><strong>EX-IT PUBLISHING BOOK BAG</strong>
+                        </p>
+                        <p>Organic Cotton Bag</p>
+                     <!--  <button class="btn" data-toggle="modal" data-target="#myModal">Sold Out !</button> -->
+             </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                                <input type="number" class="form-control" id="psw" placeholder="How many?">
+                            </div>
+                            <div class="form-group">
+                                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-block">Pay
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                            <span class="glyphicon glyphicon-remove"></span> Cancel
+                        </button>
+                        <p>Need <a href="#">help?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center"><em>Me!</em>
+        </p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>Collaboration? Drop a note.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>NY, US</p>
+            <!--    <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>   -->
+                <p><span class="glyphicon glyphicon-envelope"></span>EMAIL : werth.wladislawa@gmail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                      <!--   <button class="btn pull-right" type="submit">Send</button>   -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class="text-center">From The Blog</h3>
+        <ul class="nav nav-tabs">
+          <!--   <li class="active"><a data-toggle="tab" href="#home">Exhibitions</a>
+            </li>   
+            <li><a data-toggle="tab" href="#menu1">Events</a>
+            </li>    -->
+            <li><a data-toggle="tab" href="#menu2">Seen</a>
+            </li>
+            <li><a data-toggle="tab" href="#menu3">Events</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h2>Babycastles Gallery</h2>
+                <p>the Performance WORDHACK 23 explores technology and language</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h2>What Now? 2016: On Future Identities</h2>
+                <p>a Symposium discussion</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>Eyebeam</h2>
+                <p>the Lady Tech Guild And Friends are hosting exhibitions and talk about woman who work in art & technology</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h2>Internet Week New York</h2>
+                <p>May 18 - 24</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="googleMap">
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <br>
+        <br>
+        <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a>
+        . <br>
+            <br>
+            ©2016 Wladislawa Werth All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
